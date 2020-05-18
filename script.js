@@ -200,7 +200,7 @@ function backPlayer(el){
 	}
 }
 // array 
-players = [a, b, c, d, e, f, g, h, i, j, k];
+var players = ["cavani", "choupo", "dimaria", "draxler", "icardi", "kimpembe", "mbappe", "neymar", "silva", "verratti", "navas"];
 
 // function
 function hideAll (){
