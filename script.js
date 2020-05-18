@@ -204,17 +204,17 @@ players = [a, b, c, d, e, f, g, h, i, j, k]
 
 // function
 function hideAll (){
-players[0].classList.remove("hidethis"); 
-players[1].classList.remove("hidethis"); 
-players[2].classList.remove("hidethis"); 
-players[3].classList.remove("hidethis"); 
-players[4].classList.remove("hidethis"); 
-players[5].classList.remove("hidethis"); 
-players[6].classList.remove("hidethis"); 
-players[7].classList.remove("hidethis"); 
-players[8].classList.remove("hidethis"); 
-players[9].classList.remove("hidethis"); 
-players[10].classList.remove("hidethis");
+players[0].classList.add("hidethis"); 
+players[1].classList.add("hidethis"); 
+players[2].classList.add("hidethis"); 
+players[3].classList.add("hidethis"); 
+players[4].classList.add("hidethis"); 
+players[5].classList.add("hidethis"); 
+players[6].classList.add("hidethis"); 
+players[7].classList.add("hidethis"); 
+players[8].classList.add("hidethis"); 
+players[9].classList.add("hidethis"); 
+players[10].classList.add("hidethis");
 cavgif.classList.add("hidethis");
 cavfull.classList.add("hidethis");
 choupogif.classList.add("hidethis");
