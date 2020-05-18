@@ -199,19 +199,22 @@ function backPlayer(el){
 		k.classList.remove("hidethis");
 	}
 }
+// array 
+players = [a, b, c, d, e, f, g, h, i, j, k]
 
+// function
 function hideAll (){
-a.classList.add("hidethis");
-b.classList.add("hidethis");
-c.classList.add("hidethis");
-d.classList.add("hidethis");
-e.classList.add("hidethis");
-f.classList.add("hidethis");
-g.classList.add("hidethis");
-h.classList.add("hidethis");
-i.classList.add("hidethis");
-j.classList.add("hidethis");
-k.classList.add("hidethis");
+players[0].classList.remove("hidethis"); 
+players[1].classList.remove("hidethis"); 
+players[2].classList.remove("hidethis"); 
+players[3].classList.remove("hidethis"); 
+players[4].classList.remove("hidethis"); 
+players[5].classList.remove("hidethis"); 
+players[6].classList.remove("hidethis"); 
+players[7].classList.remove("hidethis"); 
+players[8].classList.remove("hidethis"); 
+players[9].classList.remove("hidethis"); 
+players[10].classList.remove("hidethis");
 cavgif.classList.add("hidethis");
 cavfull.classList.add("hidethis");
 choupogif.classList.add("hidethis");
