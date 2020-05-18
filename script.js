@@ -200,7 +200,7 @@ function backPlayer(el){
 	}
 }
 // array 
-players = [a, b, c, d, e, f, g, h, i, j, k]
+players = [a, b, c, d, e, f, g, h, i, j, k];
 
 // function
 function hideAll (){
