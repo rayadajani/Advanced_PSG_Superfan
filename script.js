@@ -101,7 +101,7 @@ function nextPlayer(el){
 		console.log("CHOUPO!!");
 		//second
 		hideAll();
-		player[2].classList.remove("hidethis");
+		players[2].classList.remove("hidethis");
 	}
 	else if (x == 3){
 		console.log("DIMARIA!!");
@@ -112,7 +112,7 @@ function nextPlayer(el){
 		else if (x == 4){
 		console.log("DRAXLER!!");
 		hideAll()
-		player[4].classList.remove("hidethis");
+		players[4].classList.remove("hidethis");
 	}
 		else if (x == 5){
 		console.log("ICARDI!!");
