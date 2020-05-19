@@ -96,53 +96,53 @@ function nextPlayer(el){
 		console.log("CAVANI!!");
 		//first 
 		hideAll()
-		b.classList.remove("hidethis");
+		players[1].classList.remove("hidethis");
 	} else if (x == 2){
 		console.log("CHOUPO!!");
 		//second
 		hideAll()
-		c.classList.remove("hidethis");
+		player[2].classList.remove("hidethis");
 	}
 	else if (x == 3){
 		console.log("DIMARIA!!");
 		//third
 		hideAll()
-		d.classList.remove("hidethis");
+		players[3].classList.remove("hidethis");
 	}
 		else if (x == 4){
 		console.log("DRAXLER!!");
 		hideAll()
-		e.classList.remove("hidethis");
+		player[4].classList.remove("hidethis");
 	}
 		else if (x == 5){
 		console.log("ICARDI!!");
 		hideAll()
-		f.classList.remove("hidethis");
+		players[5].classList.remove("hidethis");
 	}
 		else if (x == 6){
 		console.log("KIMPEMBE!!");
 		hideAll()
-		g.classList.remove("hidethis");
+		players[6].classList.remove("hidethis");
 	}
 		else if (x == 7){
 		console.log("MBAPPE!!");
 		hideAll()
-		h.classList.remove("hidethis");
+		players[7].classList.remove("hidethis");
 	}	
 		else if (x == 8){
 		console.log("NEYMAR!!");
 		hideAll()
-		i.classList.remove("hidethis");
+		players[8].classList.remove("hidethis");
 	}	
 		else if (x == 9){
 		console.log("SILVA");
 		hideAll()
-		j.classList.remove("hidethis");
+		players[9].classList.remove("hidethis");
 	}	
 		else if (x == 10){
 		console.log("VERRATTI!!");
 		hideAll()
-		k.classList.remove("hidethis");
+		players[10].classList.remove("hidethis");
 	}
 		else if (x == 11){
 		hideAll()
@@ -205,6 +205,7 @@ function backPlayer(el){
 
 // child function
 function hideAll (){
+players[0].classList.add("hidethis"); 
 players[1].classList.add("hidethis"); 
 players[2].classList.add("hidethis"); 
 players[3].classList.add("hidethis"); 
@@ -214,8 +215,7 @@ players[6].classList.add("hidethis");
 players[7].classList.add("hidethis"); 
 players[8].classList.add("hidethis"); 
 players[9].classList.add("hidethis"); 
-players[10].classList.add("hidethis"); 
-players[11].classList.add("hidethis");
+players[10].classList.add("hidethis");
 cavgif.classList.add("hidethis");
 cavfull.classList.add("hidethis");
 choupogif.classList.add("hidethis");
