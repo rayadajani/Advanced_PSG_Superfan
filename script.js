@@ -14,6 +14,8 @@ var l = document.getElementById("gifs");
 var m = document.getElementById("full");
 
 x = 0;
+// array
+var players = [a, b, c, d, e, f, g, h, i, j, k]
 
 var cavgif = document.getElementById("cavani-gif");
 var cavfull = document.getElementById("cavani-fullbody");
@@ -147,6 +149,7 @@ function nextPlayer(el){
 		alert("Refresh Page To Go Back To The First Player");
 	}
 }
+// parent function
 function backPlayer(el){
 	document.getElementById("click_sound").play();
 	x = x - 1;
@@ -199,12 +202,9 @@ function backPlayer(el){
 		k.classList.remove("hidethis");
 	}
 }
-// array 
-var players = [a, b, c, d, e, f, g, h, i, j, k];
 
-// function
+// child function
 function hideAll (){
-players[0].classList.add("hidethis"); 
 players[1].classList.add("hidethis"); 
 players[2].classList.add("hidethis"); 
 players[3].classList.add("hidethis"); 
@@ -214,7 +214,8 @@ players[6].classList.add("hidethis");
 players[7].classList.add("hidethis"); 
 players[8].classList.add("hidethis"); 
 players[9].classList.add("hidethis"); 
-players[10].classList.add("hidethis");
+players[10].classList.add("hidethis"); 
+players[11].classList.add("hidethis");
 cavgif.classList.add("hidethis");
 cavfull.classList.add("hidethis");
 choupogif.classList.add("hidethis");
