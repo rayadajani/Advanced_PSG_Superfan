@@ -1,4 +1,3 @@
-// use variables to simplify your life!
 var a = document.getElementById("cavani");
 var b = document.getElementById("choupo");
 var c = document.getElementById("dimaria");
