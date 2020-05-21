@@ -170,40 +170,40 @@ function backPlayer(el){
 		hideAll();
 		//child function 
 		addCavani();
-		players[0].classList.remove("hidethis");
+		a.classList.remove("hidethis");
 	} else if (x == 1){
 		console.log("CHOUPO!!");
 		//child function 
 		hideAll();
 		//child function 
 		addChoupo();
-		players[1].classList.remove("hidethis");
+		b.classList.remove("hidethis");
 	} else if (x == 2){
 		console.log("DIMARIA!!");
 		//child function 
 		hideAll();
 		//child function 
 		addDimaria();
-		players[2].classList.remove("hidethis");
+		c.classList.remove("hidethis");
 	}else if (x == 3){
 		console.log("DRAXLER!!");
 		//child function 
 		hideAll();
-		players[3].classList.remove("hidethis");
+		d.classList.remove("hidethis");
 		//child function
 		addDraxler();
 	}else if (x == 4){
 		console.log("ICARDI!!");
 		//child function 
 		hideAll();
-		players[4].classList.remove("hidethis");
+		e.classList.remove("hidethis");
 		//child function 
 		addIcardi();
 	}else if (x == 5){
 		console.log("KIMPEMBE!!");
 		//child function 
 		hideAll();
-		players[5].classList.remove("hidethis");
+		f.classList.remove("hidethis");
 		//child function 
 		addKimpembe();
 	}else if (x == 6){
