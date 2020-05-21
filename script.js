@@ -168,65 +168,76 @@ function backPlayer(el){
 		console.log("CAVANI!!");
 		//child function 
 		hideAll();
+		players[0].classList.remove("hidethis");
 		//child function 
 		addCavani();
 	} else if (x == 1){
 		console.log("CHOUPO!!");
 		//child function 
 		hideAll();
+		players[1].classList.remove("hidethis");
 		//child function 
 		addChoupo();
 	} else if (x == 2){
 		console.log("DIMARIA!!");
 		//child function 
 		hideAll();
+		players[2].classList.remove("hidethis");
 		//child function 
 		addDimaria();
 	}else if (x == 3){
 		console.log("DRAXLER!!");
 		//child function 
 		hideAll();
+		players[3].classList.remove("hidethis");
 		//child function
 		addDraxler();
 	}else if (x == 4){
 		console.log("ICARDI!!");
 		//child function 
 		hideAll();
+		players[4].classList.remove("hidethis");
 		//child function 
 		addIcardi();
 	}else if (x == 5){
 		console.log("KIMPEMBE!!");
 		//child function 
 		hideAll();
+		players[5].classList.remove("hidethis");
 		//child function 
 		addKimpembe();
 	}else if (x == 6){
 		console.log("MBAPPE!!");
 		//child function 
 		hideAll();
+		players[6].classList.remove("hidethis");
 		//child function 
 		addMbappe();
 	}else if (x == 7){
 		console.log("NEYMAR!!");
 		//child function 
 		hideAll();
+		players[7].classList.remove("hidethis");
 		//child function 
 		addNeymar();
 	}else if (x == 8){
 		console.log("SILVA!!");
 		hideAll();
+		players[8].classList.remove("hidethis");
 		//child function 
 		addSilva();
 	}else if (x == 9){
 		console.log("VERRATTI!!");
 		//child function 
 		hideAll();
+		players[9].classList.remove("hidethis");
 		//child function
 		addVerratti();
 	}else if (x == 10){
 		console.log("NAVAS!!");
 		//child function 
 		hideAll();
+		players[1].classList.remove("hidethis");
 		//child function 
 		addNavas();
 	}
