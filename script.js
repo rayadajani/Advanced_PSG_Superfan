@@ -13,8 +13,6 @@ var l = document.getElementById("gifs");
 var m = document.getElementById("full");
 
 x = 0;
-// array
-var players = [a, b, c, d, e, f, g, h, i, j, k]
 
 var cavgif = document.getElementById("cavani-gif");
 var cavfull = document.getElementById("cavani-fullbody");
@@ -198,7 +196,8 @@ function backPlayer(el){
 		addNavas();
 	}
 }
-
+// array
+var players = [a, b, c, d, e, f, g, h, i, j, k]
 // child algorithm 1
 function hideAll (){
 players[0].classList.add("hidethis"); 
