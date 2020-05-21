@@ -168,23 +168,23 @@ function backPlayer(el){
 		console.log("CAVANI!!");
 		//child function 
 		hideAll();
-		players[0].classList.remove("hidethis");
 		//child function 
 		addCavani();
+		players[0].classList.remove("hidethis");
 	} else if (x == 1){
 		console.log("CHOUPO!!");
 		//child function 
 		hideAll();
-		players[1].classList.remove("hidethis");
 		//child function 
 		addChoupo();
+		players[1].classList.remove("hidethis");
 	} else if (x == 2){
 		console.log("DIMARIA!!");
 		//child function 
 		hideAll();
-		players[2].classList.remove("hidethis");
 		//child function 
 		addDimaria();
+		players[2].classList.remove("hidethis");
 	}else if (x == 3){
 		console.log("DRAXLER!!");
 		//child function 
